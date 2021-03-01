@@ -7,7 +7,7 @@ class Bubble extends Component {
         const { text, size } = this.props;
 
         return <span 
-            className="bubble first-letter"
+            className="bubble"
             style={{ fontSize: `${size ?? 36}px` }}
         >
             {text}
