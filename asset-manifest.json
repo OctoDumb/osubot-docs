@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/osubot-docs/static/css/main.d00952fd.chunk.css",
+    "main.js": "/osubot-docs/static/js/main.2c5aa759.chunk.js",
+    "main.js.map": "/osubot-docs/static/js/main.2c5aa759.chunk.js.map",
+    "runtime-main.js": "/osubot-docs/static/js/runtime-main.640f601f.js",
+    "runtime-main.js.map": "/osubot-docs/static/js/runtime-main.640f601f.js.map",
+    "static/js/2.f1e666ca.chunk.js": "/osubot-docs/static/js/2.f1e666ca.chunk.js",
+    "static/js/2.f1e666ca.chunk.js.map": "/osubot-docs/static/js/2.f1e666ca.chunk.js.map",
+    "index.html": "/osubot-docs/index.html",
+    "static/css/main.d00952fd.chunk.css.map": "/osubot-docs/static/css/main.d00952fd.chunk.css.map",
+    "static/js/2.f1e666ca.chunk.js.LICENSE.txt": "/osubot-docs/static/js/2.f1e666ca.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.640f601f.js",
+    "static/js/2.f1e666ca.chunk.js",
+    "static/css/main.d00952fd.chunk.css",
+    "static/js/main.2c5aa759.chunk.js"
+  ]
+}
