@@ -4,6 +4,15 @@ import Bubble from '../../Bubble/Bubble';
 import "./Command.scss";
 
 class Command extends Component {
+    getArgsContent(text) {
+        const parts = text.split("-");
+        const highlighted = parts[0];
+        parts.shift();
+        return <p>
+            <span className="command__highlighted">{highlighted}</span> - {parts.join("-")}
+        </p>
+    }
+
     render() {
         const { name, description, prefixes, arguments: args } = this.props.data;
 
@@ -21,7 +30,7 @@ class Command extends Component {
                 {args.length ? <>
                     <h4 className="title">Аргументы</h4>
                     <div className="command__arguments">
-                        {args.map((a, i) => <p key={i}>{a}</p>)}
+                        {args.map((a, i) => this.getArgsContent(a))}
                     </div>
                 </> : null}
             </article>
