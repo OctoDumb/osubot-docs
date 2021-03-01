@@ -1,0 +1,42 @@
+@import "src/globalStyles/_vars.scss";
+
+.nav {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    background: $color1;
+    @media (max-width: 800px) {
+        top: 65px;
+        width: 100%;
+        min-height: 100vh;
+    }
+    &--hidden {
+        display: none;
+    }
+    &__item {
+        position: relative;
+        padding-left: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 22px;
+        color: white;
+        text-decoration: none;
+        transition: all .15s ease-in-out;
+        cursor: pointer;
+        &--active::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 7px; 
+            width: 4px;
+            height: 30px;
+            background: $accentColor1;
+            box-shadow: 0px 0px 4px $accentColor1;
+            border-radius: 31px;
+            transform: translate(0%, -50%);
+        }
+        &:hover {
+            background: $color2;
+        }
+    }
+}

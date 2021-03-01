@@ -1,0 +1,123 @@
+{
+    "modules": [
+        {
+            "name": "main",
+            "description": "Общие команды бота",
+            "prefix": "osu",
+            "commands": [
+                "news",
+                "help",
+                "streams",
+                "status",
+                "topcmds",
+                "uptime",
+                "search"
+            ]
+        },
+        {
+            "name": "bancho",
+            "description": "Стандартный сервер осу",
+            "prefix": "s",
+            "commands": [
+                "nick", 
+                "mode", 
+                "user", 
+                "recent", 
+                "top", 
+                "compare", 
+                "chat", 
+                "find", 
+                "leaderboard", 
+                "update"
+            ]
+        },
+        {
+            "name": "gatari",
+            "description": "",
+            "prefix": "g",
+            "commands": [
+                "nick", 
+                "mode", 
+                "user", 
+                "recent", 
+                "top", 
+                "compare", 
+                "chat", 
+                "find", 
+                "leaderboard"
+            ]
+        },
+        {
+            "name": "ripple",
+            "description": "",
+            "prefix": "r",
+            "commands": [
+                "nick", 
+                "mode", 
+                "user", 
+                "recent", 
+                "top", 
+                "compare", 
+                "chat", 
+                "find", 
+                "leaderboard"
+            ]
+        },
+        {
+            "name": "akatsuki",
+            "description": "",
+            "prefix": "a",
+            "commands": [
+                "nick", 
+                "mode", 
+                "user", 
+                "recent", 
+                "top", 
+                "chat", 
+                "find"
+            ]
+        },
+        {
+            "name": "akatsuki relax",
+            "description": "",
+            "prefix": "ax",
+            "commands": [
+                "user", 
+                "recent", 
+                "top"
+            ]
+        },
+        {
+            "name": "enjuu",
+            "description": "",
+            "prefix": "e",
+            "commands": [
+                "nick", 
+                "mode", 
+                "user", 
+                "recent", 
+                "top", 
+                "compare", 
+                "chat", 
+                "find", 
+                "leaderboard"
+            ]
+        },
+        {
+            "name": "kurikku",
+            "description": "",
+            "prefix": "k",
+            "commands": [
+                "nick", 
+                "mode", 
+                "user", 
+                "recent", 
+                "top", 
+                "compare", 
+                "chat", 
+                "find", 
+                "leaderboard"
+            ]
+        }
+    ]
+}

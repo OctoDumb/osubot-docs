@@ -1,0 +1,63 @@
+@import "src/GlobalStyles/_vars";
+
+.command {
+    position: relative;
+    display: flex;
+    margin-bottom: 40px;
+    flex-direction: column;
+    width: 600px;
+    height: auto;
+    min-height: 200px;
+    padding: 20px 35px;
+    background: $color1;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px 4px rgba(14, 19, 24, 0.3);
+    @media (max-width: 800px) {
+        width: 95%;
+    }
+    .title {
+        font-size: 32px;
+    }
+    &__row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__bubbles {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        * {
+            margin: 0 10px;
+        }
+        
+    }
+    &__divider {
+        flex: 1;
+        height: 5px;
+        background: #3D4044;
+        filter: blur(3px);
+    }
+    &__title {
+        padding: 0 20px;
+        background: inherit;
+        font-size: 42px;
+        padding-bottom: 8px;
+        color: $accentColor1;
+        text-shadow: 3px 3px 7px rgba($accentColor1, 0.25);
+        z-index: 2;
+    }
+    &__description {
+        font-size: 1.4rem;
+        color: $accentColor3;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    &__arguments {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.2rem;
+        color: white;
+    }
+    p {
+        margin-bottom: 10px;
+    }
+}

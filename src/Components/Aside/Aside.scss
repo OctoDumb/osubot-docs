@@ -1,0 +1,52 @@
+@import "src/globalStyles/_vars.scss";
+
+.aside {
+    position: relative;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background: $color1;
+    @media (max-width: 800px) {
+        height: 65px;
+        background: transparent;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        z-index: 9999;
+    }
+    &__burger {
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        display: none;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 15px 0px;
+        cursor: pointer;
+        div {
+            width: 40px;
+            height: 3px;
+            background: white;
+        }
+        @media (max-width: 800px) {
+            display: flex;
+        }
+    }
+    &__logo {
+        width: 100%;
+        height: 65px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $color2;
+        font-size: 48px;
+        span:nth-child(1) {
+            color: white;
+        }
+        span:nth-child(2) {
+            color: $accentColor1;
+            text-shadow: 3px 3px 7px rgba(253, 65, 60, 0.25);
+        }
+    }
+}

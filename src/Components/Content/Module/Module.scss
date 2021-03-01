@@ -1,0 +1,47 @@
+@import "src/GlobalStyles/vars";
+
+.module {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__name {
+        font-size: 74px;
+        color: $accentColor1;
+        text-shadow: 3px 3px 7px rgba($accentColor1, 0.25);
+    }
+    &__description {
+        font-size: 28px;
+        font-weight: 100;
+        color: white;
+        margin-bottom: 20px;
+    }
+}
+
+.commands {
+    width: 100%;
+    padding: 20px 60px;
+    & > span {
+        @media (max-width: 800px) {
+            display: flex !important;
+            justify-content: center;
+        }
+    }
+    @media (max-width: 800px) {
+        width: 100%;
+        padding: 20px 0px;
+    }
+}
+
+.title {
+    text-align: center;
+    margin: 10px 0px;
+    background: linear-gradient(180deg, #333333 12.26%, rgba(92, 92, 92, 0.9375) 12.29%, rgba(255, 255, 255, 0.25) 266.98%);
+    background-position: center, center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 500;
+}
