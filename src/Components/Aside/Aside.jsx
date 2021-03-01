@@ -11,6 +11,10 @@ class Aside extends Component {
         nav.classList.toggle("nav--hidden");
     }
 
+    componentDidMount() {
+        if (window.innerWidth <= 800) this.toggleNav();
+    }
+
     render() {
         return (
             <aside className="aside">
