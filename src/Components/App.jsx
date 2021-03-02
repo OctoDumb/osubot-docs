@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Redirect } from "react-router-dom";
 
 import Aside from './Aside/Aside';
 import Content from './Content/Content';
