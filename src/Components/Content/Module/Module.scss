@@ -1,11 +1,10 @@
-@import "src/GlobalStyles/vars";
+@import "./src/GlobalStyles/vars";
 
 .module {
     width: 100%;
     min-height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     &__name {
         font-size: 74px;
